@@ -8,7 +8,7 @@ public class Search {
 		
 		List<String> list = Product.getproductList();
 		
-		if(list.contains(product.getProductname())) {
+		if (list.contains(product.getProductname())) {
 			return product.getProductname();
 		}
 		
